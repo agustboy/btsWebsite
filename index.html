@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BTS Website</title>
+        <link href="images/bts-logo-0.png" rel="icon">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/bts-logo-0.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="members.html">MEMBERS</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="filmography.html">FILMOGRAPHY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>BTS</h1>
+    <p>The seven boys who conquered the whole world.<br> The world's biggest group.</p>
+    <a href="about.html" class="hero-btn">Learn More About them</a>
+</div>
+
+</section>
+
+<!----Footer------>
+
+<section class="footer">
+    <h4>Dynamite</h4>
+    <p>Shining through the city with a little funk and soul, light it up like dynamite</p>
+     <div class="icons">
+        <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?autoplay=true"target="_blank"><i class="fa fa-spotify"></i>
+        <a href="https://twitter.com/bts_twt"target="_blank"><i class="fa fa-twitter"></i>
+        <a href="https://www.instagram.com/bts.bighitofficial"target="_blank"><i class="fa fa-instagram"></i>
+        <a href="https://www.youtube.com/channel/UC3IZKseVpdzPSBaWxBxundA"target="_blank"><i class="fa fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Gus</p>
+
+</section>
+
+<!-----JavaScript for toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById('navLinks')
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
