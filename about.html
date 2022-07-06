@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BTS Website</title>
+        <link href="images/bts-logo-0.png" rel="icon">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/bts-logo-0.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="members.html">MEMBERS</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="filmography.html">FILMOGRAPHY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+<!-----About content------>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+
+            <h1>The Biggest Group In The World</h1>
+            <br>
+            <p>BTS (Hangul: 방탄소년단; RR: Bangtan Sonyeondan), also known as the Bangtan Boys, is a seven-member South Korean boy band formed in Seoul in 2013. The name became a backronym for Beyond the Scene in July 2017. The septet co-writes and produces much of their output. Originally a hip hop group, their musical style has evolved to include a wide range of genres. Their lyrics, often focused on personal and social commentary, touch on the themes of mental health, troubles of school-age youth and coming-of-age, loss, the journey towards loving oneself, and individualism. Their work features references to literature and psychological concepts and includes an alternative universe storyline. The group has released several albums and performed on several world tours.</p>
+
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+             <a href="members.html" class="hero-btn red-btn">Meet the Members</a>
+        </div>
+    </div>
+</section>
+<!----Member------>
+<section class="campus">
+    <h1>Them</h1>
+    <p>We Are Only Seven With You</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/jungkook.png">
+            <div class="layer">
+                <h3>Jungkook</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/v.jpg">
+            <div class="layer">
+                <h3>V</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/jimin.png">
+            <div class="layer">
+                <h3>Jimin</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/namjoon.png">
+            <div class="layer">
+                <h3>RM</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/jhope.png">
+            <div class="layer">
+                <h3>J-Hope</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/suga.png">
+            <div class="layer">
+                <h3>Suga</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/jin.png">
+            <div class="layer">
+                <h3>Jin</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+
+<!------call to action--------->
+
+<section class="cta">
+    <h1>1,2,3! BANG! TAN! Annyeong Haseyo, Bangtan Sonyeondan imnida</h1>
+    <a href="members.html" class="hero-btn">Meet the Members</a>
+</section>
+
+
+<!----Footer------>
+
+<section class="footer">
+    <h4>Yours Eyes Tell</h4>
+        <p>The gazing eyes are so colorful
+        You taught me
+        That someday the sadness
+        Will wind us together</p>
+     <div class="icons">
+        <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?autoplay=true"target="_blank"><i class="fa fa-spotify"></i>
+        <a href="https://twitter.com/bts_twt"target="_blank"><i class="fa fa-twitter"></i>
+        <a href="https://www.instagram.com/bts.bighitofficial"target="_blank"><i class="fa fa-instagram"></i>
+        <a href="https://www.youtube.com/channel/UC3IZKseVpdzPSBaWxBxundA"target="_blank"><i class="fa fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Gus</p>
+
+</section>
+
+<!-----JavaScript for toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById('navLinks')
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
