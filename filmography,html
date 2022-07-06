@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BTS Website</title>
+        <link href="images/bts-logo-0.png" rel="icon">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/bts-logo-0.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="members.html">MEMBERS</a></li>
+                <li><a href="discography.html">DISCOGRAPHY</a></li>
+                <li><a href="filmography.html">FILMOGRAPHY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+</section>
+<br>
+<!-----Table------>
+<section>
+  <h3>Reality / Variety Shows</h3>
+  <br>
+  <table border = "1" width = "100%">
+
+     <tr>
+        <td>
+           <table border = "1" width = "100%">
+              <tr>
+                 <th>Title</th>
+                 <th>Release Date</th>
+              </tr>
+              <tr>
+                 <td>Rookie King</td>
+                 <td>September 3, 2013</td>
+              </tr>
+              <tr>
+                 <td>AFTER SCHOOL CLUB</td>
+                 <td>FIRST APPEARANCE: SEPTEMBER 25, 2013</td>
+              </tr>
+              <tr>
+                 <td>GO! BTS</td>
+                 <td>2014</td>
+              </tr>
+              <tr>
+                 <td>HOPE DELIVERY @ LOVE FOOD BANK</td>
+                 <td>OCTOBER 16, 2014</td>
+              </tr>
+              <tr>
+                 <td>YAMAN TV</td>
+                 <td>JUNE 22, 2015 & JUNE 29, 2015</td>
+              </tr>
+              <tr>
+                 <td>IDOL STAR ATHLETICS CHAMPIONSHIP</td>
+                 <td>2015 - 2017</td>
+              </tr>
+              <tr>
+                 <td>BTS GAYO (VLIVE)</td>
+                 <td>AUGUST 11, 2015</td>
+              </tr>
+              <tr>
+                 <td>RUN BTS! (VLIVE)</td>
+                 <td>AUGUST 1, 2015 - Today</td>
+              </tr>
+              <tr>
+                 <td>THE BOSS IS WATCHING</td>
+                 <td>FEBRUARY 6, 2016</td>
+              </tr>
+              <tr>
+                 <td>RUNNING MAN EPISODE 300 (7 VS 300)</td>
+                 <td>MAY 22, 2016</td>
+              </tr>
+              <tr>
+                 <td>STAR SHOW 360</td>
+                 <td>NOVEMBER 7, 2016</td>
+              </tr>
+              <tr>
+                 <td>NEW YANG NAM SHOW</td>
+                 <td>AUGUST 11, 2015</td>
+              </tr>
+              <tr>
+                 <td>IDOL PARTY</td>
+                 <td>MARCH 7, 2017</td>
+              </tr>
+              <tr>
+                 <td>KNOWING BROTHERS: ASK US ANYTHING</td>
+                 <td>SEPTEMBER 23, 2017</td>
+              </tr>
+              <tr>
+                 <td>Bon Voyage</td>
+                 <td>2019</td>
+              </tr>
+              <tr>
+                 <td>IN THE SOOP BTS VER</td>
+                 <td>AUGUST 19, 2020</td>
+              </tr>
+              <tr>
+                 <td>YOU QUIZ ON THE BLOCK</td>
+                 <td>MARCH 24, 2021</td>
+              </tr>
+              <tr>
+                 <td>2021 SPECIAL TALK SHOW - LET'S BTS</td>
+                 <td>MARCH 29, 2021</td>
+              </tr>
+           </table>
+        </td>
+     </tr>
+  </table>
+<br>
+<h3>Documentaries / Movies</h3>
+<br>
+<table border = "1" width = "100%">
+    <tr>
+        <td>
+           <table border = "1" width = "100%">
+              <tr>
+                 <th>Title</th>
+                 <th>Release Date</th>
+              </tr>
+              <tr>
+                 <td>BTS: BURN THE STAGE DOCUMENTARY</td>
+                 <td>MARCH 28, 2018</td>
+              </tr>
+              <tr>
+                 <td>BURN THE STAGE: THE MOVIE</td>
+                 <td>NOVEMBER 15, 2018</td>
+              </tr>
+              <tr>
+                 <td>LOVE YOURSELF IN SEOUL FILM</td>
+                 <td>JANUARY 26, 2019</td>
+              </tr>
+              <tr>
+                 <td>BRING THE SOUL : THE MOVIE</td>
+                 <td>AUGUST 7, 2019 | RE-RELEASE DATES: AUG. 28-30, 2020</td>
+              </tr>
+              <tr>
+                 <td>BRING THE SOUL : THE DOCU-SERIES</td>
+                 <td>AUGUST 27, 2019</td>
+              </tr>
+              <tr>
+                 <td>BREAK THE SILENCE : DOCU-SERIES</td>
+                 <td>MAY 12, 2020</td>
+              </tr>
+        </td>
+    </tr>
+</table>
+<section class="cta">
+    <h1>1,2,3! BANG! TAN! Annyeong Haseyo, Bangtan Sonyeondan imnida</h1>
+    <a href="index.html" class="hero-btn">Home Page</a>
+</section>
+
+</section>
+<!----Footer------>
+
+<section class="footer">
+    <h4>Tomorrow</h4>
+    <p>Don’t ever run backwards, never.
+Because the dawn right before the sun rises is the darkest.</p>
+     <div class="icons">
+        <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?autoplay=true"target="_blank"><i class="fa fa-spotify"></i>
+        <a href="https://twitter.com/bts_twt"target="_blank"><i class="fa fa-twitter"></i>
+        <a href="https://www.instagram.com/bts.bighitofficial"target="_blank"><i class="fa fa-instagram"></i>
+        <a href="https://www.youtube.com/channel/UC3IZKseVpdzPSBaWxBxundA"target="_blank"><i class="fa fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Gus</p>
+
+</section>
+
+<!-----JavaScript for toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById('navLinks')
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
